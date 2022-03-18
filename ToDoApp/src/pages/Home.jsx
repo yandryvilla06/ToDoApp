@@ -1,17 +1,14 @@
-import Navbar from "../components/Navbar";
+import FormTask from '../components/FormTask'
+import Navbar from '../components/Navbar'
 
-function Home(){
+function Home() {
+  return (
+    <>
+      <Navbar />
 
-    return(
-
-        
-        <Navbar/>
-
-
-    )
-
-
+      <FormTask />
+    </>
+  )
 }
 
-
-export default Home;
+export default Home

@@ -10,8 +10,6 @@ function Navbar(){
             <div>
                 <h2 className="text-sm  sm:text-xl text-white font-bold ">Aplicación para la gestion de proyectos</h2>
             </div>
-
-
         </div>
 
     )
