@@ -1,17 +1,18 @@
+import Footer from '../components/Footer'
 import FormTask from '../components/FormTask'
 import Navbar from '../components/Navbar'
 import Tareas from '../components/Tareas'
 
 function Home() {
   return (
-    <div className=" bg-gray-300">
+    <div>
        <Navbar />
-      <div className="container mx-auto mt-10">
+      <div className="container mx-auto py-12">
           <FormTask />
           <Tareas/>
-
+        
       </div>
-   
+      <Footer/>
     </div>
   )
 }
