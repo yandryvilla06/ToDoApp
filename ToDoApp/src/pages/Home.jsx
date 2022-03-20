@@ -4,10 +4,14 @@ import Tareas from '../components/Tareas'
 
 function Home() {
   return (
-    <div className="bg-gray-300">
-      <Navbar />
-      <FormTask />
-      <Tareas/>
+    <div className=" bg-gray-300">
+       <Navbar />
+      <div className="container mx-auto mt-10">
+          <FormTask />
+          <Tareas/>
+
+      </div>
+   
     </div>
   )
 }
